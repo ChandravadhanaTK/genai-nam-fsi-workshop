@@ -1,6 +1,6 @@
 #Method 1
 def is_palindrome(input_string: str):
-    """Checks whether a string is palinsrome or not using slicing
+    """Checks whether a string is palindrome or not using slicing
 
     Args:
         input_string (str): Input string
@@ -12,7 +12,7 @@ def is_palindrome(input_string: str):
 
 #Method 2
 def is_palindrome_using_flag(input_string: str):
-    """Checks whether a string is palinsrome or not using flag and iterator
+    """Checks whether a string is palindrome or not using flag and iterator
 
     Args:
         input_string (str): Input string
@@ -31,5 +31,6 @@ def is_palindrome_using_flag(input_string: str):
 print("Welcome to Palindrome Checker...")
 input_string = str(input("Enter your input string:")).strip()
 #Calling Method 1 function is_palindrome
-is_palindrome(input_string)
-#is_palindrome_using_flag(input_string)
+#is_palindrome(input_string)
+#Calling Method 2 function is_palindrome_using_flag
+is_palindrome_using_flag(input_string)
