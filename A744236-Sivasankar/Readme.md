@@ -3,7 +3,7 @@
 
 ### Assignments 
  1. Data Analysis with CSV file
-    - 
+    
 
 
 
@@ -11,6 +11,3 @@
 ```bash
 |-- ./Assignment 1
 |   |-- ./Data Analysis with CSV file         
-|
-
-```
