@@ -76,10 +76,14 @@ def index(request):
 # def short_url(request, id):
 #     url = UrlModel.objects.get(url_id = id)
 #     tables = UrlModel.objects.raw("""
-# SELECT * FROM core_UrlModel;
+# SELECT * FROM core_UrlModel WHERE core_UrlModel_url_id = id;
 #     """)
-#     print("executed!")
-#     print(f"{url[0] = }")
+#     tables = UrlModel.objects.raw("""
+#         SELECT * FROM core_UrlModel;
+#     """)
+#     if tables:
+#         print("executed!")
+#     # print(f"{url[0] = }")
 #     # print(f"{url.original_url}")
 #     return HttpResponseRedirect(url.original_url)
 
@@ -119,3 +123,9 @@ def short_url(request, id):
             'form': UrlForm()
         }
     return render(request, 'index.html', context = context_data)
+
+
+
+
+# google.com
+# ge.le/tyiu/
