@@ -11,7 +11,6 @@ class Trends:
   def __init__(self, file2):
     self.file = file2
     #self.age = age
-    
 
   def myfunc(self):
     print("Average,Mean and Minimum values is calculated below")
