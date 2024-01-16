@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "name": "milk",
+      "price": 103.0,
+      "is_offer": false,
+      "item_id": 1
+    },
+    {
+      "name": "oil",
+      "price": 180.5,
+      "is_offer": false,
+      "item_id": 2
+    },
+    {
+      "name": "Cereal",
+      "price": 80.0,
+      "is_offer": false,
+      "item_id": 4,
+      "last_update": ""
+    }
+  ]
+}
